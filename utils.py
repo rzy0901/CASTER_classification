@@ -136,7 +136,7 @@ def plot_confusion_matrix(labels, pre, classes, savepath='./temp_cm', normalize=
     conf_numpy = confusion_matrix(labels, pre)
     if normalize:
         conf_numpy = conf_numpy.astype('float') / conf_numpy.sum(axis = 1)
-        conf_numpy = np.around(conf_numpy,decimals=2)
+        conf_numpy = np.around(conf_numpy,decimals=3)
         print("Normalized confusion matrix")
     else:
         print('Confusion matrix, without normalization')
@@ -152,7 +152,7 @@ def plot_confusion_matrix(labels, pre, classes, savepath='./temp_cm', normalize=
     plt.xticks(tick_marks, classes, rotation=45, fontsize=fontsize)
     plt.yticks(tick_marks, classes, fontsize=fontsize)
 
-    fmt = '.2f' if normalize else 'd'
+    fmt = '.3f' if normalize else 'd'
     thresh = conf_numpy.max() / 2.
     for i, j in itertools.product(range(conf_numpy.shape[0]), range(conf_numpy.shape[1])):
         plt.text(j, i, format(conf_numpy[i, j], fmt),
