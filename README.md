@@ -31,7 +31,7 @@
   </tr>
 </table>
 
-## Unsupervised domain adpataion
+## Unsupervised domain adaptaion
 
 <table>
 <thead>
