@@ -37,7 +37,7 @@
 <thead>
   <tr align="center">
     <th colspan="2">Source only (<a href="./features.ipynb" alt="tsne">features.ipynb</a>: 83%)</th>
-    <th colspan="2">Transferred (<a href="./features.ipynb" alt="tsne">features.ipynb</a>: 93%)</th>
+    <th colspan="2">Transferred (<a href="./ADDA_test_new.ipynb" alt="tsne">ADDA_test_new.ipynb</a>: 93%)</th>
   </tr>
 </thead>
 <tbody>
