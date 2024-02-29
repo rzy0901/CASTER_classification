@@ -30,8 +30,7 @@
     <td><img src="./model6/Output/Test_ConfMatrix.png" alt="scheme 6"></td>
   </tr>
 </table>
-
-## Unsupervised domain adpataion
+## Unsupervised domain adaptation
 
 <table>
 <thead>
