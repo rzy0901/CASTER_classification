@@ -184,7 +184,7 @@ def plot_tsne(tsne_result, labels, classes, savepath='./temp_tsne',title = 't-SN
     plt.show()
 
 def plot_tsne_v2(tsne_result_sim, labels_sim, tsne_result_real, labels_real, classes,  savepath='./temp_tsne', title = 't-SNE Visualization', legend=True,fontsize = 18):
-    plt.figure(figsize=(16, 7))
+    plt.figure(figsize=(8, 7))
     unique_labels = np.unique(labels_sim+labels_real)
     plt.scatter(tsne_result_sim[:, 0], tsne_result_sim[:, 1], c=labels_sim, cmap='viridis',marker='*')
     plt.scatter(tsne_result_real[:, 0], tsne_result_real[:, 1], c=labels_real, cmap='viridis',marker='o')
@@ -195,7 +195,7 @@ def plot_tsne_v2(tsne_result_sim, labels_sim, tsne_result_real, labels_real, cla
         handels2 = [plt.Line2D([0], [0], marker='o', linestyle='None', color=class_colors[i], markerfacecolor=class_colors[i], markersize=10, label=classes[i]+" (real)") for i in unique_labels]
         handles=handles1+handels2
         # lgd = plt.legend(handles=handles, title='Classes',bbox_to_anchor=(1.05, 1), loc='upper left',fontsize=fontsize)
-        lgd = plt.legend(handles=handles, fontsize=fontsize)
+        lgd = plt.legend(handles=handles, ncol=2, fontsize=10, loc = 'upper center',bbox_to_anchor=(0.5, 1.15))
         lgd.get_title().set_fontsize(fontsize=fontsize)
 
     plt.xticks(fontsize=fontsize)
