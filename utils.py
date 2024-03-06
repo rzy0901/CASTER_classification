@@ -195,7 +195,7 @@ def plot_tsne_v2(tsne_result_sim, labels_sim, tsne_result_real, labels_real, cla
         handels2 = [plt.Line2D([0], [0], marker='o', linestyle='None', color=class_colors[i], markerfacecolor=class_colors[i], markersize=10, label=classes[i]+" (real)") for i in unique_labels]
         handles=handles1+handels2
         # lgd = plt.legend(handles=handles, title='Classes',bbox_to_anchor=(1.05, 1), loc='upper left',fontsize=fontsize)
-        lgd = plt.legend(handles=handles, ncol=2, fontsize=10, loc = 'upper center',bbox_to_anchor=(0.5, 1.15))
+        lgd = plt.legend(handles=handles, ncol=2, fontsize=14, loc = 'upper center',bbox_to_anchor=(0.5, 1.15))
         lgd.get_title().set_fontsize(fontsize=fontsize)
 
     plt.xticks(fontsize=fontsize)
@@ -203,6 +203,7 @@ def plot_tsne_v2(tsne_result_sim, labels_sim, tsne_result_real, labels_real, cla
     # plt.title(title)
     plt.tight_layout()
     plt.savefig(savepath+'.png')
+    plt.savefig(savepath+'.pdf')
     plt.savefig(savepath+'.eps')
     plt.show()
     
