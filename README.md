@@ -37,15 +37,15 @@
 <thead>
   <tr align="center">
     <th colspan="2">Source only (<a href="./features.ipynb" alt="tsne">features.ipynb</a>: 83%)</th>
-    <th colspan="2">Transferred (<a href="./ADDA_test_new.ipynb" alt="tsne">ADDA_test_new.ipynb</a>: 93%)</th>
+    <th colspan="2">Transferred (<a href="./ADDA_test_new_3x10.ipynb" alt="tsne">ADDA_test_new_3x10.ipynb</a>: 96.5%)</th>
   </tr>
 </thead>
 <tbody>
   <tr align="center">
     <td><img src="./model1/Output/Test_ConfMatrix.png" alt="scheme 1"></td>
     <td><img src="./model1/Output/TSNE.png" alt="TSNE"></td>
-    <td><img src="./output_DA2/Test_ConfMatrix.png" alt=""></td>
-    <td><img src="./output_DA2/ALL_TSNE.png" alt=""><</td>
+    <td><img src="./output_DA_3x10/Test_ConfMatrix.png" alt=""></td>
+    <td><img src="./output_DA_3x10/ALL_TSNE.png" alt=""><</td>
   </tr>
 </tbody>
 </table>
