@@ -20,6 +20,6 @@ def copy_files_with_suffix(src_folder, dest_folder, suffix="_r.jpg"):
                 print(f"Copied: {src_file_path} to {dest_file_path}")
 
 if __name__ == "__main__":
-    copy_files_with_suffix("./model2/train/", "./train_target_3x10/")
-    copy_files_with_suffix("./model3/train/", "./train_target_3x20/")
-    copy_files_with_suffix("./model4/train/", "./train_target_3x30/")
+    copy_files_with_suffix("./model2/train/", "./train_target_5x10/")
+    copy_files_with_suffix("./model3/train/", "./train_target_5x20/")
+    copy_files_with_suffix("./model4/train/", "./train_target_5x30/")
