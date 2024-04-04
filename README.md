@@ -44,8 +44,8 @@
   <tr align="center">
     <td><img src="./model1/Output/Test_ConfMatrix.png" alt="scheme 1"></td>
     <td><img src="./model1/Output/TSNE.png" alt="TSNE"></td>
-    <td><img src="./output_DA_3x10/Test_ConfMatrix.png" alt=""></td>
-    <td><img src="./output_DA_3x10/ALL_TSNE.png" alt=""><</td>
+    <td><img src="./output_DA_5x10/Test_ConfMatrix.png" alt=""></td>
+    <td><img src="./output_DA_5x10/ALL_TSNE.png" alt=""><</td>
   </tr>
 </tbody>
 </table>
